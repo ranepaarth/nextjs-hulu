@@ -10,12 +10,12 @@ const config: Config = {
     container: {
       center: true,
       padding: {
-        DEFAULT: '1rem',
-        md: '1.5rem',
-        lg: '2rem',
+        DEFAULT: '0.8rem',
+        md: '2rem',
+        lg: '4rem',
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 };
 export default config;
