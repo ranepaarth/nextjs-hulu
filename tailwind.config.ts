@@ -15,6 +15,12 @@ const config: Config = {
         lg: '4rem',
       },
     },
+    extend: {
+      screens: {
+        '3xl': '2000px',
+        '5xl': '4000px',
+      },
+    },
   },
   plugins: [require('tailwind-scrollbar-hide')],
 };
